@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0,0,0.5)), url(https://img.freepik.com/free-photo/top-view-person-writing-laptop-with-copy-space_23-2148708035.jpg?w=900&t=st=1674016556~exp=1674017156~hmac=76e083f33fc7e1fa1aa0c784d4f539d0e7bf5f7ac9aa666df7b3fe6860cff7ae);
+    background-size: cover;
+    background-position: center;
+  }
+  label{
+    color: #fff;
+  }
+  .form-signin {
+      width: 100%;
+      max-width: 330px;
+      padding: 15px;
+      margin: auto;
+    }
+    img{
+      margin-left: 35%;
+      
+    }
+    h1{
+      text-align: center;
+    }
+    .form-signin .checkbox {
+      font-weight: 400;
+    }
+    
+    .form-signin .form-floating:focus-within {
+      z-index: 2;
+    }
+    
+    .username{
+      margin-bottom: 10px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius:0px;
+      border-color: #000000;
+      background: transparent;
+    }
+    .email {
+      margin-bottom: 10px;
+      border-top-right-radius:0px;
+      border-top-left-radius:0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius:0px;
+      border-color: rgb(0, 0, 0);
+      background: transparent;
+    }
+    .phone {
+      margin-bottom: 10px;
+      border-top-right-radius:0px;
+      border-top-left-radius:0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius:0px;
+      border-color: #000000;
+      background: transparent;
+    }
+    .password {
+      border-top-right-radius:0px;
+      border-top-left-radius:0px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius:10px;
+      border-color: #000000;
+      background: transparent;
+    }
+    
+    .btn{
+      border-color: #000000;
+      background-color: transparent;
+      color: #ffffff;
+    }
+  
